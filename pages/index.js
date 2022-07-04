@@ -1,8 +1,10 @@
 
+import PriceSection from "../src/sections/PriceSection";
+
 export default function Home() {
-  return (
-    <div>
-      <h1>New app</h1>
-    </div>
-  )
+    return (
+        <div>
+            <PriceSection />
+        </div>
+    )
 }
